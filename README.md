@@ -30,7 +30,7 @@ And for each it's set the type of data (str, int, bool)
 {
     "active": Optional[bool] = True,
     "year": int,
-    "mileage": Optional[str] = 0,
+    "mileage": Optional[int] = 0,
     "price": Optional[int] = 0,
     "make_id": str,
     "model_id": str,
