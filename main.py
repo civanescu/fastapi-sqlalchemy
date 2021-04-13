@@ -13,7 +13,7 @@ from sqlalchemy import *
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 
-SQLALCHEMY_DATABASE_URL = "postgresql://postgres:12345678@database-1.cck4faphiwwb.eu-west-1.rds.amazonaws.com"
+SQLALCHEMY_DATABASE_URL = "postgresql://<user>:<pass>@database-1.cck4faphiwwb.eu-west-1.rds.amazonaws.com"
 DB = create_engine(SQLALCHEMY_DATABASE_URL, pool_pre_ping=True, pool_recycle=60)
 
 Base = declarative_base()
