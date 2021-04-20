@@ -47,3 +47,7 @@ More details:
 * a make has many models, and
 * a model has many submodels.
 
+################# LAST INFO ###############
+The code has the following problems that should be solved:
+1. I used the rollback too many times.
+2. The connection to the DB is global.
