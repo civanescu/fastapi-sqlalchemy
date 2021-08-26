@@ -1,4 +1,4 @@
-This is an exercise to create a API with endpoints for a group of cars.
+API with endpoints for a group of cars.
 
 # It is made on:
 <pre>
